@@ -1,0 +1,17 @@
+---
+layout: post
+title:  Rani Tatt -2
+date:   2018-07-19 15:01:35 +0300
+image:  03.jpg
+tags:   poetry
+---
+<strong>This book is an awesome collection of poetry you'll love these grab one and dive deeper .
+ਮਾਂ ਬੋਲੀ ਦੀ ਝੋਲੀ ਚ ਪਾਈ ਇੱਕ ਮਸਹੂਰ ਕਿਤਾਬ, ਇਸ ਨੂੰ ਤੁਸੀ ਫੜਦੇ ਹੀ ਸਬੱਬਾਂ ਦੇ ਝੂਟੇ ਤੇ ਬੈਠ ਜਜ਼ਬਾਤਾਂ ਦੀ ਉਡਾਰੀ ਲਈ ਖਿਆਲਾਂ ਦੇ ਦਰਿਆ ਚ ਨਿਕਲ ਜਾਓਗੇ</strong><br><br>
+
+<h2>Price 250 </h2>.<br>
+
+<h4><a class="add-cart cart1" href="/zolan/Books#2"><b>Check Price and Availability</b></a></h4>
+
+<body>
+ <script src="{{ site.baseurl }}/js/main.js"></script>
+ </body>
