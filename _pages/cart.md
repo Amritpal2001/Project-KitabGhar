@@ -40,6 +40,11 @@ image:
             <button class="btn btn-outline-warning mr-2" onClick="cartLS.destroy()">Clear Cart</button>
 		</div>
 	</div>
+	<a href="../ContactFrom_v17/index.html">Checkout</a>
+	    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+	<form method="post">
+		<input type="button" value="Send Email" onclick="sendEmail()"/>
+	</form> 
 	<script>
 		function renderCart(items) {
 			const $cart = document.querySelector(".cart")
@@ -60,10 +65,32 @@ image:
 						<td class="text-right">$${item.price}</td>
 						<td class="text-right"><Button class="btn btn-primary" onClick="cartLS.remove(${item.id})">Delete</Button></td>
 					</tr>`).join("")
-            $total.innerHTML = "$" + cartLS.total()
+            $total.innerHTML = "Rs. " + cartLS.total()
 		}
 		renderCart(cartLS.list())
 		cartLS.onChange(renderCart)
-	</script>
+	var order= JSON.parse(localStorage.getItem("__cart"));
+	var product="";
+	var productIncart="";
+	for( let i=0;i<order.length;i+=1){
+		product= "Name : "+String(order[i].name)+" Quantity : "+String(order[i].quantity)+" Price : "+String(order[i].price);
+		productIncart=productIncart+product+"\n";
+
+	}
+	console.log(productIncart);	
+	function sendEmail() {
+	Email.send({
+	Host: "smtp.gmail.com",
+	Username : "matharooamrit0098@gmail.com",
+	Password : "grandmax#2846",
+	To : 'matharooamrit0098@gmail.com',
+	From : "matharooamrit0098@gmail.com",
+	Subject : "Order",
+	Body : productIncart,
+	}).then(
+		message => alert("mail sent successfully")
+	);
+}
+</script>
 </body>
 
