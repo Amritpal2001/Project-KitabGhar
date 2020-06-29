@@ -34,9 +34,6 @@
 <loc>http://localhost:4000/zolan/cart/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/zolan/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/zolan/tag/jekyll/</loc>
 </url>
 <url>
@@ -47,9 +44,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/zolan/tag/poetry/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/zolan/page/2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/zolan/ContactFrom_v17/</loc>
