@@ -226,20 +226,6 @@
 		productIncart=productIncart+product+"\n";
 
 	}
-	console.log(productIncart);	
-	function sendEmail() {
-	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "matharooamrit0098@gmail.com",
-	Password : "grandmax#2846",
-	To : 'matharooamrit0098@gmail.com',
-	From : "matharooamrit0098@gmail.com",
-	Subject : "Order",
-	Body : productIncart,
-	}).then(
-		message => alert("mail sent successfully")
-	);
-}
 </script>
 </body>
 
