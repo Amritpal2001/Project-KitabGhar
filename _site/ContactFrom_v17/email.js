@@ -16,13 +16,14 @@ var order= JSON.parse(localStorage.getItem("__cart"));
   var productIncart="";
   var total=0;
 	for( let i=0;i<order.length;i+=1){
+    total=total+(order[i].price*order[i].quantity)
 		product= "Name : "+String(order[i].name)+" Quantity : "+String(order[i].quantity)+" Price : "+String(order[i].price);
 		productIncart=productIncart+product+"\n";
-console.log(productIncart)
   }
-  final="First Name : "+String(first_name)+"\nLast Name : "+String(last_name)+"\nEmail : "+String(email)+"\nLast Name : "+String(last_name)+"\nPhone : "+String(phone)+"\nAddress : "+String(address)+"\nState : "+String(state)+"\nPin Code : "+String(pincode)+productIncart
-
-  sendEmail();
+  final="First Name : "+String(first_name)+"\nLast Name : "+String(last_name)+"\nEmail : "+String(email)+"\nLast Name : "+String(last_name)+"\nPhone : "+String(phone)+"\nAddress : "+String(address)+"\nState : "+String(state)+"\nPin Code : "+String(pincode)+productIncart+"\nTotal : "+String(total)
+console.log(final)
+  // sendEmail();
+  localStorage.clear()
 
   }
 
