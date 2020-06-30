@@ -1,5 +1,4 @@
-I"
-<head>
+I"n<head>
 	<title>Demo</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -33,11 +32,7 @@
             <button class="btn btn-outline-warning mr-2" onclick="cartLS.destroy()">Clear Cart</button>
 		</div>
 	</div>
-	<a href="../ContactFrom_v17/index.html">Checkout</a>
-	    <script src="https://smtpjs.com/v3/smtp.js"></script>  
-	<form method="post">
-		<input type="button" value="Send Email" onclick="sendEmail()" />
-	</form> 
+	&lt;a href="../ContactFrom_v17/index.html"class="btn btn-outline-success mr-2"&gt;Checkout&lt;/a&gt;
 	<script>
 		function renderCart(items) {
 			const $cart = document.querySelector(".cart")
@@ -62,14 +57,7 @@
 		}
 		renderCart(cartLS.list())
 		cartLS.onChange(renderCart)
-	var order= JSON.parse(localStorage.getItem("__cart"));
-	var product="";
-	var productIncart="";
-	for( let i=0;i<order.length;i+=1){
-		product= "Name : "+String(order[i].name)+" Quantity : "+String(order[i].quantity)+" Price : "+String(order[i].price);
-		productIncart=productIncart+product+"\n";
-
-	}
+	
 </script>
 </body>
 
