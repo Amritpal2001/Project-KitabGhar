@@ -1,14 +1,6 @@
----
-layout: default
-title: Cart
-permalink: /cart/
-image:
----
-
- 
- <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+I"–<head>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
 </head>
 
@@ -20,14 +12,14 @@ image:
 			<div class="card-header">
 				<h1>Cart</h1>
 			</div>
-			<div class="card-body table-responsive">
+			<div class="card-body">
 				<table class="table">
 						<td><strong>Serial No.</strong></td>
 						<td><strong>Name</strong></td>
 						<td><strong>Quantity</strong></td>
-						<td><strong>Change</strong></td>
-						<td><strong>Quantity</strong></td>
-						<td class="text-right"><strong>Price</strong></td>
+						<td><strong></strong></td>
+						<td><strong></strong></td>
+						<td class="text-right">Total: <strong>Price</strong></td>
 					<tbody class="cart">
 					</tbody>
 					<tfoot>
@@ -41,11 +33,14 @@ image:
 					</tfoot>
 				</table>
 			</div>
-            <button class="btn btn-outline-warning mr-7" onClick="cartLS.destroy()">Clear Cart</button>
-			<br><br>
-			<a href="../ContactFrom_v17/index.html" class="checkout btn btn-outline-success mr-7">Checkout</a>
+            <button class="btn btn-outline-warning mr-2" onclick="cartLS.destroy()">Clear Cart</button>
+			<br /><br />
+			<a href="../ContactFrom_v17/index.html" class="checkout btn btn-outline-success mr-2">Checkout</a>
 		</div>
 	</div>
+<style>
 
+</style>
 </body>
 
+:ET

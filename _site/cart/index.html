@@ -137,27 +137,7 @@
 
   <!-- begin content -->
   <main class="content" aria-label="Content">
-    <div class="container">
-	<div class="page-title-box">
-		<div class="row">
-			<div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
-				<h1 class="page-title">Cart</h1>
-			</div>
-		</div>
-	</div>
-
-	
-</div>
-
-
-<div class="container">
-	<div class="row">
-		<!-- begin page -->
-		<article class="page col col-8 col-t-10 col-m-12">
-			<div class="page__content">
-				<head>
-	<title>Demo</title>
-	<meta charset="utf-8" />
+    <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
@@ -169,10 +149,16 @@
 	<div class="container">
             <div class="card mb-4 shadow-sm">
 			<div class="card-header">
-				<h2>Cart</h2>
+				<h1>Cart</h1>
 			</div>
-			<div class="card-body">
+			<div class="card-body table-responsive">
 				<table class="table">
+						<td><strong>Serial No.</strong></td>
+						<td><strong>Name</strong></td>
+						<td><strong>Quantity</strong></td>
+						<td><strong>Change</strong></td>
+						<td><strong>Quantity</strong></td>
+						<td class="text-right"><strong>Price</strong></td>
 					<tbody class="cart">
 					</tbody>
 					<tfoot>
@@ -186,45 +172,15 @@
 					</tfoot>
 				</table>
 			</div>
-            <button class="btn btn-outline-warning mr-2" onclick="cartLS.destroy()">Clear Cart</button>
+            <button class="btn btn-outline-warning mr-7" onclick="cartLS.destroy()">Clear Cart</button>
 			<br /><br />
-			<a href="../ContactFrom_v17/index.html" class="checkout btn btn-outline-success mr-2">Checkout</a>
+			<a href="../ContactFrom_v17/index.html" class="checkout btn btn-outline-success mr-7">Checkout</a>
 		</div>
 	</div>
-	<script>
-		function renderCart(items) {
-			const $cart = document.querySelector(".cart")
-			const $total = document.querySelector(".total")
-            $cart.innerHTML = items.map((item) => `
-					<tr>
-						<td>#${item.id}</td>
-						<td>${item.name}</td>
-						<td>${item.quantity}</td>
-						<td style="width: 60px;">	
-							<button type="button" class="btn btn-block btn-sm btn-outline-primary"
-								onClick="cartLS.quantity(${item.id},1)">+</button>
-						</td>
-						<td style="width: 60px;">	
-							<button type="button" class="btn btn-block btn-sm btn-outline-primary"
-								onClick="cartLS.quantity(${item.id},-1)">-</button>
-						</td>
-						<td class="text-right">$${item.price}</td>
-						<td class="text-right"><Button class="btn btn-primary" onClick="cartLS.remove(${item.id})">Delete</Button></td>
-					</tr>`).join("")
-            $total.innerHTML = "Rs. " + cartLS.total()
-		}
-		renderCart(cartLS.list())
-		cartLS.onChange(renderCart)
-	
-</script>
+
 </body>
 
 
-			</div>
-		</article>
-		<!-- end page -->
-	</div>
-</div>
   </main>
   <!-- end content -->
 

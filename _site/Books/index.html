@@ -281,31 +281,7 @@
   <script src="/zolan/js/vendors/jquery.fitvids.js"></script>
   <script src="/zolan/js/common.js"></script>
   <script src="/zolan/js/main.js"></script>
-  <script>
-    function renderCart(items) {
-		const $cart = document.querySelector(".cart")
-		const $total = document.querySelector(".total")
-        $cart.innerHTML = items.map((item) => `
-					<tr>
-						<td>#${item.id}</td>
-						<td>${item.name}</td>
-						<td>${item.quantity}</td>
-						<td style="width: 60px;">	
-							<button type="button" class="btn btn-block btn-sm btn-outline-primary"
-								onClick="cartLS.quantity(${item.id},1)">+</button>
-						</td>
-						<td style="width: 60px;">	
-							<button type="button" class="btn btn-block btn-sm btn-outline-primary"
-								onClick="cartLS.quantity(${item.id},-1)">-</button>
-						</td>
-						<td class="text-right">$${item.price}</td>
-						<td class="text-right"><Button class="btn btn-primary" onClick="cartLS.remove(${item.id})">Delete</Button></td>
-					</tr>`).join("")
-            $total.innerHTML = "Rs. " + cartLS.total()
-		}
-		renderCart(cartLS.list())
-		cartLS.onChange(renderCart)
-	</script>
+  
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
