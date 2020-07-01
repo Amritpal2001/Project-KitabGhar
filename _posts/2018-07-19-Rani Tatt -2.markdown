@@ -4,6 +4,8 @@ title:  Rani Tatt -2
 date:   2018-07-19 15:01:35 +0300
 image:  03.jpg
 tags:   poetry
+price: 2500
+ids : 2
 ---
 <strong>This book is an awesome collection of poetry you'll love these grab one and dive deeper .
 ਮਾਂ ਬੋਲੀ ਦੀ ਝੋਲੀ ਚ ਪਾਈ ਇੱਕ ਮਸਹੂਰ ਕਿਤਾਬ, ਇਸ ਨੂੰ ਤੁਸੀ ਫੜਦੇ ਹੀ ਸਬੱਬਾਂ ਦੇ ਝੂਟੇ ਤੇ ਬੈਠ ਜਜ਼ਬਾਤਾਂ ਦੀ ਉਡਾਰੀ ਲਈ ਖਿਆਲਾਂ ਦੇ ਦਰਿਆ ਚ ਨਿਕਲ ਜਾਓਗੇ</strong><br><br>

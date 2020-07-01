@@ -43,4 +43,3 @@ console.log(email);
 		message => alert("mail sent successfully")
 	);
 }
-  
