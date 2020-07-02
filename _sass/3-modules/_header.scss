@@ -1,6 +1,7 @@
 .header {
   position: relative;
   height: 100px;
+  background-color:rgba(255,255,255,0.4);
 
   .header__overlay {
     position: fixed;
@@ -54,7 +55,7 @@
 
   .nav-icon__close {
     display: none;
-    font-size: 24px;
+    font-size: 30px;
     text-align: right;
     cursor: pointer;
     &:hover {
@@ -75,13 +76,14 @@
       .nav__link {
         display: inline-block;
         padding: 10px 30px;
-        font-size: 14px;
-        font-weight: 700;
+        font-size: 17px;
+        font-weight: 800;
         letter-spacing: 0.5px;
         text-transform: uppercase;
-        color: $dark;
+        color: $black;
         &:hover {
           color: $black;
+          // text-decoration-line: underline;;
         }
       }
     }
@@ -133,10 +135,11 @@
   font-size: 21px;
   
   .nav__icon {
-    color: $dark;
+    color: $black;
     cursor: pointer;
     &:hover {
       color: $black;
+      text-decoration: underline;
     }
   }
   

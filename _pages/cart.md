@@ -13,9 +13,7 @@ image:
 </head>
 
 <body>
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-	</div>
-	<div class="container">
+	<div class="container mb-4">
             <div class="card mb-4 shadow-sm">
 			<div class="card-header">
 				<h1>Cart</h1>
@@ -46,6 +44,10 @@ image:
 			<a href="../ContactFrom_v17/index.html" class="checkout btn btn-outline-success mr-7">Checkout</a>
 		</div>
 	</div>
-
+<style>
+	.content{
+		padding:80px 0px;
+	}
+	</style>
 </body>
 

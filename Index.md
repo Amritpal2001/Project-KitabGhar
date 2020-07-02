@@ -63,40 +63,7 @@
                 <a href="/kitab/styleguide/" class="nav__link">Style Guide</a>
               </li>
               
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
+          
             </ul>
 
           </div>
