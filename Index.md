@@ -10,9 +10,9 @@
       <header class="header">
 
         <div class="logo">
-          <a class="logo__link" href="/zolan/">
+          <a class="logo__link" href="/kitab/">
           
-            <img class="logo__image" src="/zolan/images/logo.svg" alt="Kitab Ghar">
+            <img class="logo__image" src="/kitab/images/logo.svg" alt="Kitab Ghar">
           
           </a>
         </div>
@@ -28,7 +28,7 @@
 
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="/zolan/" class="nav__link">Home</a>
+                <a href="/kitab/" class="nav__link">Home</a>
               </li>
               
                 
@@ -36,7 +36,7 @@
                 
               
               <li class="nav__item">
-                <a href="/zolan/about/" class="nav__link">About</a>
+                <a href="/kitab/about/" class="nav__link">About</a>
               </li>
               
                 
@@ -44,7 +44,7 @@
                 
               
               <li class="nav__item">
-                <a href="/zolan/cart/" class="nav__link">cart</a>
+                <a href="/kitab/cart/" class="nav__link">cart</a>
               </li>
               
                 
@@ -60,7 +60,7 @@
                 
               
               <li class="nav__item">
-                <a href="/zolan/styleguide/" class="nav__link">Style Guide</a>
+                <a href="/kitab/styleguide/" class="nav__link">Style Guide</a>
               </li>
               
                 
@@ -154,7 +154,7 @@
       </div>
       <div class="col col-6 col-t-12">
         <div class="hero__image">
-          <img src="/zolan/images/01.jpg" alt="">
+          <img src="/kitab/images/01.jpg" alt="">
         </div>
       </div>
     </div>
@@ -184,7 +184,7 @@
     <div class="article__wrapper">
 
         
-          <a href="/zolan/2018/07/24/Rani-Tatt/" class="article__image" style="background-image: url(/zolan/images/02.jpg)">
+          <a href="/kitab/2018/07/24/Rani-Tatt/" class="article__image" style="background-image: url(/kitab/images/02.jpg)">
           </a>
         
 
@@ -193,14 +193,14 @@
           
             <div class="article-tags__box">
               
-                <a href="/zolan/tag/poetry" class="article__tag">poetry</a>
+                <a href="/kitab/tag/poetry" class="article__tag">poetry</a>
               
             </div>
           
           </div>
       
           <h2 class="article__title">
-            <a href="/zolan/2018/07/24/Rani-Tatt/">Rani Tatt - Harman</a>
+            <a href="/kitab/2018/07/24/Rani-Tatt/">Rani Tatt - Harman</a>
           </h2>
       
           <p class="article__excerpt">Add to Cart
@@ -213,7 +213,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
               <span class="article__date"><time datetime="2018-07-24T17:31:35+05:30">July 24, 2018</time></span>
             </div>
 
-            <a href="/zolan/2018/07/24/Rani-Tatt/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
+            <a href="/kitab/2018/07/24/Rani-Tatt/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
           </div>
 
         </div>
@@ -232,7 +232,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
     <div class="article__wrapper">
 
         
-          <a href="/zolan/2018/07/19/why-a-brand-is-often-important/" class="article__image" style="background-image: url(/zolan/images/03.jpg)">
+          <a href="/kitab/2018/07/19/why-a-brand-is-often-important/" class="article__image" style="background-image: url(/kitab/images/03.jpg)">
           </a>
         
 
@@ -241,14 +241,14 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
           
             <div class="article-tags__box">
               
-                <a href="/zolan/tag/Style" class="article__tag">Style</a>
+                <a href="/kitab/tag/Style" class="article__tag">Style</a>
               
             </div>
           
           </div>
       
           <h2 class="article__title">
-            <a href="/zolan/2018/07/19/why-a-brand-is-often-important/">Why a brand is often important</a>
+            <a href="/kitab/2018/07/19/why-a-brand-is-often-important/">Why a brand is often important</a>
           </h2>
       
           <p class="article__excerpt">Yeah, and if you were the pope they’d be all, “Straighten your pope hat.” And “Put on your good vestments.” Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an ...</p>
@@ -258,7 +258,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
               <span class="article__date"><time datetime="2018-07-19T17:31:35+05:30">July 19, 2018</time></span>
             </div>
 
-            <a href="/zolan/2018/07/19/why-a-brand-is-often-important/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
+            <a href="/kitab/2018/07/19/why-a-brand-is-often-important/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
           </div>
 
         </div>
@@ -277,7 +277,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
     <div class="article__wrapper">
 
         
-          <a href="/zolan/2018/07/17/time-to-givegifts-to-everyone/" class="article__image" style="background-image: url(/zolan/images/04.jpg)">
+          <a href="/kitab/2018/07/17/time-to-givegifts-to-everyone/" class="article__image" style="background-image: url(/kitab/images/04.jpg)">
           </a>
         
 
@@ -286,14 +286,14 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
           
             <div class="article-tags__box">
               
-                <a href="/zolan/tag/Life" class="article__tag">Life</a>
+                <a href="/kitab/tag/Life" class="article__tag">Life</a>
               
             </div>
           
           </div>
       
           <h2 class="article__title">
-            <a href="/zolan/2018/07/17/time-to-givegifts-to-everyone/">Time to give gifts to everyone</a>
+            <a href="/kitab/2018/07/17/time-to-givegifts-to-everyone/">Time to give gifts to everyone</a>
           </h2>
       
           <p class="article__excerpt">Yeah, and if you were the pope they’d be all, “Straighten your pope hat.” And “Put on your good vestments.” Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an ...</p>
@@ -303,7 +303,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
               <span class="article__date"><time datetime="2018-07-17T17:31:35+05:30">July 17, 2018</time></span>
             </div>
 
-            <a href="/zolan/2018/07/17/time-to-givegifts-to-everyone/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
+            <a href="/kitab/2018/07/17/time-to-givegifts-to-everyone/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
           </div>
 
         </div>
@@ -322,7 +322,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
     <div class="article__wrapper">
 
         
-          <a href="/zolan/2018/07/05/moving-to-a-new-place/" class="article__image" style="background-image: url(/zolan/images/05.jpg)">
+          <a href="/kitab/2018/07/05/moving-to-a-new-place/" class="article__image" style="background-image: url(/kitab/images/05.jpg)">
           </a>
         
 
@@ -331,14 +331,14 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
           
             <div class="article-tags__box">
               
-                <a href="/zolan/tag/Home" class="article__tag">Home</a>
+                <a href="/kitab/tag/Home" class="article__tag">Home</a>
               
             </div>
           
           </div>
       
           <h2 class="article__title">
-            <a href="/zolan/2018/07/05/moving-to-a-new-place/">Moving to a new place</a>
+            <a href="/kitab/2018/07/05/moving-to-a-new-place/">Moving to a new place</a>
           </h2>
       
           <p class="article__excerpt">
@@ -349,7 +349,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
               <span class="article__date"><time datetime="2018-07-05T17:31:35+05:30">July 5, 2018</time></span>
             </div>
 
-            <a href="/zolan/2018/07/05/moving-to-a-new-place/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
+            <a href="/kitab/2018/07/05/moving-to-a-new-place/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
           </div>
 
         </div>
@@ -378,7 +378,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
           </div>
       
           <h2 class="article__title">
-            <a href="/zolan/2018/06/25/start-the-day-with-the-right-habit/">Start the day with the right habit</a>
+            <a href="/kitab/2018/06/25/start-the-day-with-the-right-habit/">Start the day with the right habit</a>
           </h2>
       
           <p class="article__excerpt">
@@ -389,7 +389,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
               <span class="article__date"><time datetime="2018-06-25T17:31:35+05:30">June 25, 2018</time></span>
             </div>
 
-            <a href="/zolan/2018/06/25/start-the-day-with-the-right-habit/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
+            <a href="/kitab/2018/06/25/start-the-day-with-the-right-habit/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
           </div>
 
         </div>
@@ -426,7 +426,7 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
       </div>
 
       
-      <a class="next-link" href="/zolan/page/2/">Next Posts</a>
+      <a class="next-link" href="/kitab/page/2/">Next Posts</a>
       
 
 
@@ -516,21 +516,22 @@ Sohle thoor mitti ke Price -250 . This book is an awesome collection of poetry y
 </footer>
 <!-- end footer -->
 
-  <script src="/zolan/js/vendors/jquery-3.3.1.min.js"></script>
-<script src="/zolan/js/vendors/simple-jekyll-search.min.js"></script>
+  <script src="/kitab/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="/kitab/js/vendors/simple-jekyll-search.min.js"></script>
 <script>
   SimpleJekyllSearch({
     searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
-    json: "/zolan/search.json",
+    json: "/kitab/search.json",
     searchResultTemplate: '<li class="search-results__item"><a class="search-results__link" href="{url}">{title}</a><br> <span class="search-results__date">{date}</span></li>',
     noResultsText: '<li class="no-results">No results found</li>'
   });
 </script>
-<script src="/zolan/js/vendors/transition.js"></script>
-<script src="/zolan/js/vendors/zoom.min.js"></script>
-<script src="/zolan/js/vendors/instafeed.min.js"></script>
-<script src="/zolan/js/vendors/jquery.fitvids.js"></script>
-<script src="/zolan/js/common.js"></script>
-<script src="/zolan/js/main.js"></script>
+<script src="/kitab/js/vendors/transition.js"></script>
+<script src="/kitab/js/vendors/zoom.min.js"></script>
+<script src="/kitab/js/vendors/instafeed.min.js"></script>
+<script src="/kitab/js/vendors/jquery.fitvids.js"></script>
+<script src="/kitab/js/common.js"></script>
+<script src="/kitab/js/main.js"></script>
+
 </body>
