@@ -102,8 +102,8 @@ body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
 }
-form {
-  max-width: 300px;
+#form {
+  max-width: 450px;
   margin: 100px auto;
   padding: 10px 20px;
   background: #f4f7f8;
@@ -191,17 +191,14 @@ label.light {
   text-shadow: 0 1px 0 rgba(255,255,255,0.2);
   border-radius: 100%;
 }
-@media screen and (min-width: 480px) {
-  form {
-    max-width: 480px;
+@media only screen and (max-width: 600px) {
+  #form{
+    max-width:320px;
   }
+}
 
-}
-header{
-	background-color:rgba(255,255,255,0.4);
-}
 .content{
-    background-image: url('https://i.postimg.cc/RhLYkMNB/lilies-of-the-valley-2454762.jpg');
+    background-image: url('https://i.postimg.cc/xd9dwk9j/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg');
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

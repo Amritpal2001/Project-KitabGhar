@@ -34,63 +34,63 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" method="GET" id="checkoutForm">
+			<form class="contact100-form validate-form" method="GET" action="../index.html" onsubmit="myFunction()">
 				<span class="contact100-form-title">
 					Details
 				</span>
 
 				<label class="label-input100" for="first-name">Tell us your name *</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
+					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name" required>
 					<span class="focus-input100"></span>
 				</div>
 				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-					<input id="last-name" class="input100" type="text" name="last-name" placeholder="Last name">
+					<input id="last-name" class="input100" type="text" name="last-name" placeholder="Last name" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100" for="email">Enter your email *</label>
 				<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100" for="phone">Enter phone number</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +91 9876543210">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +91 9876543210" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100" for="address">Enter Address</label>
 				<div class="wrap-input100">
-					<input id="address" class="input100" type="text" name="address" placeholder="Permanent Address">
+					<input id="address" class="input100" type="text" name="address" placeholder="Permanent Address" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100" for="state">State and City</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input">
-					<input id="state" class="input100" type="text" name="state" placeholder="Your state">
+					<input id="state" class="input100" type="text" name="state" placeholder="Your state" required>
 					<span class="focus-input100"></span>
 				</div>
 				<div class="wrap-input100 rs2-wrap-input100 validate-input">
-					<input id="city" class="input100" type="text" name="city" placeholder="Your City">
+					<input id="city" class="input100" type="text" name="city" placeholder="Your City" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100" for="pincode">Pin Code</label>
 				<div class="wrap-input100">
-					<input id="pincode" class="input100" type="text" name="pincode" placeholder="Enter your Pin Code">
+					<input id="pincode" class="input100" type="text" name="pincode" placeholder="Enter your Pin Code" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn" type="button" onclick="myFunction()" data-toggle="modal" data-target="#exampleModal">
-						Send Message
+					<button class="contact100-form-btn" type="submit">
+						Place Order
 					</button>
 				</div>
 			</form>
-			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		 <!-- Modal -->
+			<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 				aria-hidden="true">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
@@ -104,11 +104,11 @@
 							Thanks for shopping with Us
 						  </div>
 						<div class="modal-footer">
-							<a href="../index.html" class="btn btn-primary">Done</a>
+							<a href="" class="btn btn-primary">Done</a>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>  -->
 
 			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
 				<div class="flex-w size1 p-b-47">
@@ -124,8 +124,8 @@
 						<span class="txt2"style="color:wheat;background-color:(255,255,255,0.8);">
 						<br><b>Order processed only after payment is recieved <br>
 							 Pay the total amount at
-							 <br>Paytm: 7009261058
-							 <br>Google Pay:<b><br>
+							 <br>Paytm: ##########
+							 <br>Google Pay: ********** <b><br>
 							
 						</span>
 					</div>
@@ -142,8 +142,7 @@
 						</span>
 
 						<span class="txt3">
-							7009261058<br>
-							9780909697<br>
+							
 						</span>
 					</div>
 				</div>
@@ -159,18 +158,10 @@
 						</span>
 
 						<span class="txt3" style="color:wheat;background-color:white;">
-						<a href = "mailto:abc@example.com?subject = Feedback&body = Message">onlinekitabghar4@gmail.com
+						<a href = "mailto:abc@example.com?subject = Feedback&body = Message">matharooamrit098@gmail.com
 </a>
 							
-						</span>
-						<span class="txt1 p-b-20">
-							Tech-Support
-						</span>
-
-						<span class="txt3" style="color:wheat;background-color:white;">
-						<a href = "mailto:abc@example.com?subject = Feedback&body = Message">anubhavgupta2260@gmail.com
-</a>
-						</span>
+						
 					</div>
 				</div>
 			</div>

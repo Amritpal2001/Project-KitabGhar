@@ -21,3 +21,13 @@ function renderCart(items) {
 }
 renderCart(cartLS.list())
 cartLS.onChange(renderCart)
+
+function checkout(){
+   var checkTotal=document.getElementById("checkTotal").innerHTML
+   if (checkTotal[1]=="0"){
+       alert("Cart cannot be empty")
+   }
+    else{
+           location.replace("../ContactFrom_v17/index.html")
+       }
+   }

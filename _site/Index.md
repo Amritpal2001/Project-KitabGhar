@@ -80,7 +80,6 @@
     </div>
   </div>
 </div>
-
   <!-- begin content -->
   <main class="content" aria-label="Content">
     <!-- begin c-hero -->
@@ -92,7 +91,7 @@
           <h1 class="hero__title">we have a motive <strong>reviving culture through books</strong></h1>
           <p class="hero__subtitle"></p>
           <div class="hero__social">
-            <span class="hero__social-title">Follow Me |</span>
+            <span class="hero__social-title">Follow Us |</span>
             <div class="contact">
   <ul class="contact__list list-reset">
     
@@ -121,7 +120,8 @@
       </div>
       <div class="col col-6 col-t-12">
         <div class="hero__image">
-          <img src="/kitab/images/01.jpg" alt="">
+          <img src="https://kitabghar.github.io/Kitab_Ghar/images/01.jpg" alt="photo">
+
         </div>
       </div>
     </div>
@@ -134,6 +134,7 @@
 		<div class="col col-12">
 			
 				<h4 class="lates-title">Latest Books</h4>
+
 			
 		</div>
 	</div>
@@ -143,6 +144,7 @@
 	<div class="row">
 	
 		
+          <img src="{{site.baseurl}}/images/delivery.jpg" alt="Free Delivery">
 			
 <!-- begin article -->
 <div class="article">
