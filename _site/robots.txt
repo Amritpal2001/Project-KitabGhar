@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/Kitab_Ghar/sitemap.xml
+Sitemap: http://localhost:4000/Project-KitabGhar/sitemap.xml
