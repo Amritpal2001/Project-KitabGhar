@@ -2,6 +2,7 @@ kitab - Modern & Minimal Theme for Jekyll
 ======
 kitab is a minimal blog theme for Jekyll.
 
+Developed By anubhav Gupta and amritpal Singh
 * * *
 
 Table of Contents
