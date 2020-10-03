@@ -5,8 +5,8 @@
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
      <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
            <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
    </head>
 
@@ -77,24 +77,46 @@
       margin-top:50px;
       margin-bottom:80px;
   }
+  .container{
+    padding :0px;
+    padding-left: 15px;
+  }
+  @media only screen and (max-width: 600px) {
+  .container{
+    padding-top :15px;
+    padding-right: 15px;
+  }
+}
+.article-tags__box a{
+  text-decoration: none;
+}
+.article__title a{
+  text-decoration: none;
+}
+.nav__item a{
+  text-decoration: none;
+}
+.heading{
+  margin: 80px 0px;
+}
   </style>
-    <script src="/zolan/js/vendors/jquery-3.3.1.min.js"></script>
-    <script src="/zolan/js/vendors/simple-jekyll-search.min.js"></script>
+    <script src="/kitab/js/vendors/jquery-3.3.1.min.js"></script>
+    <script src="/kitab/js/vendors/simple-jekyll-search.min.js"></script>
     <script>
       SimpleJekyllSearch({
         searchInput: document.getElementById("js-search-input"),
         resultsContainer: document.getElementById("js-results-container"),
-        json: "/zolan/search.json",
+        json: "/kitab/search.json",
         searchResultTemplate: '<li class="search-results__item"><a class="search-results__link" href="{url}">{title}</a><br> <span class="search-results__date">{date}</span></li>',
         noResultsText: '<li class="no-results">No results found</li>'
       });
     </script>
-    <script src="/zolan/js/vendors/transition.js"></script>
-    <script src="/zolan/js/vendors/zoom.min.js"></script>
-    <script src="/zolan/js/vendors/instafeed.min.js"></script>
-    <script src="/zolan/js/vendors/jquery.fitvids.js"></script>
-    <script src="/zolan/js/common.js"></script>
-    <script src="/zolan/js/main.js"></script>
+    <script src="/kitab/js/vendors/transition.js"></script>
+    <script src="/kitab/js/vendors/zoom.min.js"></script>
+    <script src="/kitab/js/vendors/instafeed.min.js"></script>
+    <script src="/kitab/js/vendors/jquery.fitvids.js"></script>
+    <script src="/kitab/js/common.js"></script>
+    <script src="/kitab/js/main.js"></script>
     
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

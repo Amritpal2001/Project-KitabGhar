@@ -2,42 +2,62 @@
   width: 430px;
   max-width: 100%;
   margin: 0 auto 80px;
-  text-align: center;
+  text-align: left;
+  // background-image: url("https://i.postimg.cc/DzSYbGnM/narrative-794978.jpg");
+  background-image: url("https://i.postimg.cc/4NYR6bjb/paper-1332019.jpg");
+
+  background-color:(0,0,0,.8);
+  
 
   .subscribe__title {
     margin-bottom: 10px;
     font-size: 37px;
     line-height: 57px;
+    // background-image: url("https://i.postimg.cc/DzSYbGnM/narrative-794978.jpg");
+  background-image: url("https://i.postimg.cc/4NYR6bjb/paper-1332019.jpg");
+
+
+
   }
 
   .subscribe__subtitle {
     margin-bottom: 30px;
     font-size: 17px;
     line-height: 27px;
+    
   }
 
   .subscribe-form {
+    // background-image: url("https://i.postimg.cc/DzSYbGnM/narrative-794978.jpg");
 
+
+    
     .subscribe-group {
       margin-bottom: 30px;
+      // background-image: url("https://i.postimg.cc/DzSYbGnM/narrative-794978.jpg");
+
+      
+
     }
 
     .subscribe__email {
+
       width: 100%;
       padding: 17px;
       font-size: 16px;
       text-align: center;
       outline: none;
       border: none;
-      border-bottom: 3px solid $light-gray;
+      // border-bottom: 3px solid $light-gray;
 
       &::placeholder {
         font-size: 18px;
-        color: $light-gray;
+        // color: $light-gray;
       }
     }
 
     .subscribe__button {
+      
       width: 127px;
       height: 57px;
       font-size: 14px;
@@ -45,13 +65,12 @@
       letter-spacing: 0.5px;
       border-radius: 30px;
       border: none;
-      background: $light-gray;
+      // background: $light-gray;
       cursor: pointer;
       transition: all .35s;
 
       &:hover {
-        color: $white;
-        background: $dark;
+        color: (255,255,255,0.01);
       }
     }
   }
@@ -60,6 +79,7 @@
     margin: 0 auto 40px;
     
     .subscribe__subtitle {
+      
       font-size: 16px;
       line-height: 26px;
     }

@@ -4,18 +4,15 @@ title: Cart
 permalink: /cart/
 image:
 ---
-
  
  <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
     <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
 </head>
 
 <body>
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-	</div>
-	<div class="container">
+	<div class="container mb-4">
             <div class="card mb-4 shadow-sm">
 			<div class="card-header">
 				<h1>Cart</h1>
@@ -36,16 +33,23 @@ image:
 						<td></td>
 						<td></td>
 						<td></td>
-						<td class="text-right">Total: <strong class="total"></strong></td>
+						<td class="text-right">Total: <strong class="total" id="checkTotal"></strong></td>
 						<td></td>
 					</tfoot>
 				</table>
 			</div>
             <button class="btn btn-outline-warning mr-7" onClick="cartLS.destroy()">Clear Cart</button>
 			<br><br>
-			<a href="../ContactFrom_v17/index.html" class="checkout btn btn-outline-success mr-7">Checkout</a>
+			<button class="btn btn-outline-success mr-7" onClick="checkout()">Checkout</button>
 		</div>
 	</div>
-
+<style>
+	.content{
+		padding:80px 0px;
+	}
+	.nav__item a{
+		text-decoration:none;
+	}
+	</style>
 </body>
 

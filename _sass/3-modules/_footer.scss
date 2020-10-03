@@ -4,14 +4,20 @@
   text-align: center;
   border-top: 1px solid $light-gray;
   background: #f5f5f5;
+  // background-image: url("https://i.postimg.cc/DzSYbGnM/narrative-794978.jpg");
+  background-image: url("https://i.postimg.cc/4NYR6bjb/paper-1332019.jpg");
+
+
 
   .contact {
     margin-bottom: 15px;
+    background-color: (255,255,255,);
+
   }
 
   .copyright {
     a {
-      color: $dark;
+      color:$black;
       &:hover {
         color: $brand-color;
       }

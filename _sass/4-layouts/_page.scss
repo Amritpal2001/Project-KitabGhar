@@ -1,9 +1,9 @@
 .page-title-box {
-  padding: 80px 0;
+  padding: 40px 0;
   border-top: 1px solid $light-gray;
 
   .page-title {
-    font-size: 57px;
+    font-size: 40px;
     line-height: 70px;
     margin: 0;
   }
@@ -61,4 +61,7 @@
       }
     }
   }
+}
+body{
+  background-color: lavenderblush;
 }
