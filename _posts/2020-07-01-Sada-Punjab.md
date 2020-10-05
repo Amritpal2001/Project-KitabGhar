@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Sada Punjab
+title:  Sadda Punjab
 date:   2020-07-1 15:01:35 +0300
 image:  37.jpg
 tags:   history
